@@ -41,7 +41,7 @@
       }
     }
     ```
-    
+
     - Library ที่ต้องใช้คือ `angularjs` `systemjs` `es6-shim` `reflect-metadata` `rxjs` `zone.js`
 
 2. พิมพ์คำสั่ง `npm install`
@@ -205,7 +205,7 @@ export class AppComponent {}
     }
     ```
 
-2. สร้างไฟล์ `state/state.service.ts`
+2. สร้างไฟล์ `common/state.service.ts`
 
     ```typescript
     import {Injectable} from "angular2/core";

@@ -261,3 +261,13 @@ export class AppComponent {}
         </form>
     </div>
     ```
+
+### Update ไฟล์อื่น ๆ
+
+- `app/common/commmon.service.ts`
+- `app/common/experiment.serivce.ts`
+- `app/common/experiment.model.ts`
+- `app/experiments/experiment.component.ts`
+- `app/experiments/experiment.component.html`
+- `app/experiments/experiment-details/experiment.detail.component.ts`
+- `app/experiments/experiment-details/experiment.detail.component.html`

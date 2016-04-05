@@ -42,7 +42,7 @@
     }
     ```
 
-    - Library ที่ต้องใช้คือ `angularjs` `systemjs` `es6-shim` `reflect-metadata` `rxjs` `zone.js`
+    - Library ที่ต้องใช้คือ `angularjs` `systemjs` `es6-shim` `reflect-metadata` `rxjs` และ `zone.js`
 
 2. พิมพ์คำสั่ง `npm install`
 
@@ -73,7 +73,7 @@
     - `target: ES5`  คอมไฟล์ TypeScript เป็น JavaScript เวอร์ชั่น 5
     - `module: system` ใช้ระบบ Module System.js
     - `sourceMap: true` สร้างไฟล์ .map สำหรับ debug
-    - `moduleResolution` ให้ System.js โหลดไฟล์ Library จาก `node_modules`
+    - `moduleResolution: node` ให้ System.js โหลดไฟล์ Library จาก `node_modules`
 
 ### Bootstrapping
 

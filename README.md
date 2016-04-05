@@ -140,7 +140,9 @@
 npm start
 ```
 
-### เซ็ต Route ของโปรแกรม โดยเพิ่ม `@RouteConfig` ในไฟล์ `app/app.component.ts`
+### เซ็ต Route
+
+- โดยเพิ่ม `@RouteConfig` ในไฟล์ `app/app.component.ts`
 
 ```typescript
 import {Component} from 'angular2/core';
